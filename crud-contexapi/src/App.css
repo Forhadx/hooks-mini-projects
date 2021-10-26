@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: rgb(66, 66, 66);
+    margin-top: 2rem;
+}
+
+form {
+    width: 30rem;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    padding: 0.1rem 0.2rem;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.1rem 0.5rem;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 35rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3faf86;
+    color: white;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.loader {
+    text-align: center;
+    color: red;
+}
